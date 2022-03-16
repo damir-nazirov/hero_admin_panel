@@ -64,6 +64,8 @@ const HeroesAddForm = () => {
     }
 
 
+    const id = uuidv4();
+
 
     return (
         <Formik
@@ -83,10 +85,15 @@ const HeroesAddForm = () => {
                         .required('Обязательное поле'),
             element: Yup.string().required('Выбери элемент'),
             
+            
         })}
 
-     onSubmit= {values =>  request(`http://localhost:3001/heroes/`, 'POST', JSON.stringify({...values, id: uuidv4()}))
-     .then(dispatch(heroAdd([...heroes, {...values, id: uuidv4()}])))
+        
+
+     onSubmit= {(values, {resetForm}) =>  request(`http://localhost:3001/heroes/`, 'POST', JSON.stringify({...values, id: id}))
+     .then(dispatch(heroAdd([...heroes, {...values, id: id}])))
+     .then(values = {})
+     .then(resetForm({values: ''}))
      .catch(() => dispatch(heroesFetchingError()))
     }
             >
