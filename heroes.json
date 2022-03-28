@@ -1,22 +1,22 @@
 {
   "heroes": [
     {
-      "id": 1,
-      "name": "Первый герой",
-      "description": "Первый герой в рейтинге!",
+      "id": "befeb7de-ebdc-49a1-b1ee-8424e89f3c88",
+      "name": "ddddddddd",
+      "description": "ddddddddddd",
+      "element": "water"
+    },
+    {
+      "id": "d07ecb0d-97f6-4de9-8d1a-11f4ee5562fa",
+      "name": "nnnnnnnnnnnn",
+      "description": "nnnnnnnnnnnnn",
       "element": "fire"
     },
     {
-      "name": "rggstbtstb",
-      "description": "setbsetbset",
-      "element": "water",
-      "id": "868b3e78-c2b2-4f07-86ca-8bcdb9470542"
-    },
-    {
+      "id": "1225c084-26e2-415e-b5dc-5af19ebd283a",
       "name": "Ольга",
-      "description": "drthrth",
-      "element": "water",
-      "id": "d33781cc-1e95-4913-9dfa-901e6b962a53"
+      "description": "ddddddddddddd",
+      "element": "fire"
     }
   ],
   "filters": [
