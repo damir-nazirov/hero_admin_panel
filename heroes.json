@@ -1,22 +1,28 @@
 {
   "heroes": [
     {
-      "id": "befeb7de-ebdc-49a1-b1ee-8424e89f3c88",
-      "name": "ddddddddd",
-      "description": "ddddddddddd",
+      "id": 1,
+      "name": "Первый герой",
+      "description": "Первый герой в рейтинге!",
+      "element": "fire"
+    },
+    {
+      "id": "64c9edfb-eb43-420a-8988-4b7c8d47f432",
+      "name": "Супермен",
+      "description": "Человек из стали",
       "element": "water"
     },
     {
-      "id": "d07ecb0d-97f6-4de9-8d1a-11f4ee5562fa",
-      "name": "nnnnnnnnnnnn",
-      "description": "nnnnnnnnnnnnn",
-      "element": "fire"
+      "id": "45688ade-731f-425c-89f9-ad91ed56d463",
+      "name": "Бэтмен",
+      "description": "Бороться с преступностью",
+      "element": "wind"
     },
     {
-      "id": "1225c084-26e2-415e-b5dc-5af19ebd283a",
-      "name": "Ольга",
-      "description": "ddddddddddddd",
-      "element": "fire"
+      "id": "8dc45b2f-4c55-4873-946f-abb14f7b8b90",
+      "name": "Локи",
+      "description": "Лукавить",
+      "element": "water"
     }
   ],
   "filters": [
